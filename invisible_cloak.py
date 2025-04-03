@@ -30,7 +30,14 @@ while cap.isOpened():
         #substitute the red portion with backgrpound image 
         part1 = cv2.bitwise_and(background,background,mask = red_mask)
 
-        cv2.imshow("red mask",part1)
+        #detecting the things that are not red
+        red_free = cv2.bitwise_not(red_mask)
+
+        #if the cloak i snot present show the current image
+        part2 = cv2.bitwise_and(current_frame,current_frame,red_free,mask=red_free)
+
+        #final output 
+        cv2.imshow("cloak",part1+part2)
         if cv2.waitKey(5) == ord('q'):
             break
 cap.release()
