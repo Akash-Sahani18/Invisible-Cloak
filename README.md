@@ -25,13 +25,13 @@ This project uses Python + OpenCV to create an illusion where a selected color (
 ## 📂 Project Structure
  ``` text
 Invisible-Cloak/
-│── cloak.py            # Main code file
+│── invisible_cloak.py  # Main code file
 │── background.jpg      # Saved background image
 │── requirements.txt    # Required Python libraries
 │── README.md           # Project documentation
 ```
 ## ⚙️ Installation & Usage
-1️. Clone the repository
+ 1️. Clone the repository
 ```text
 git clone https://github.com/Akash-Sahani18/Invisible-Cloak.git
 cd invisible-cloak
@@ -40,7 +40,7 @@ cd invisible-cloak
 ```text
   pip install -r requirements.txt
 ```
-4. Run the project
+3. Run the project
 ```text
   python Invisible_cloak.py
 ```
@@ -56,9 +56,9 @@ cd invisible-cloak
 - Support video file input instead of only webcam.
 - Apply smoothing filters for better cloak blending.
 ## 🤝 Contributing  
-  *Pull requests are welcome! If you’d like to improve detection or add new features, feel free to fork and submit a PR.*
+  Pull requests are welcome! If you’d like to improve detection or add new features, feel free to fork and submit a PR.
 ## 📜 License    
-** This project is licensed under the MIT License – free to use and modify.
+  This project is licensed under the MIT License – free to use and modify.
 
 ## 🌟 Acknowledgements
 - Inspired by Harry Potter & Avengers Infinity War
