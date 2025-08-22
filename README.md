@@ -10,7 +10,7 @@ This project uses Python + OpenCV to create an illusion where a selected color (
 - ⚡ Lightweight and fast with OpenCV.
 - 🎮 Interactive — you can try different cloak colors.
 
-##  Tech Stack
+## 🛠️ Tech Stack
 - Langugage: 
   - Python
 - Libraries:
@@ -44,7 +44,7 @@ cd invisible-cloak
 ```text
   python Invisible_cloak.py
 ```
-## Wear your red cloak (or chosen color) and watch the magic! ✨
+### Wear your red cloak (or chosen color) and watch the magic! ✨
 | Without Cloak                                              | With Cloak                                                             |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------- |
 | ![Normal](https://via.placeholder.com/250x150?text=Person) | ![Invisible](https://via.placeholder.com/250x150?text=Invisible+Cloak) |
