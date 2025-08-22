@@ -10,7 +10,7 @@ This project uses Python + OpenCV to create an illusion where a selected color (
 - ⚡ Lightweight and fast with OpenCV.
 - 🎮 Interactive — you can try different cloak colors.
 
-  ##  Tech Stack
+##  Tech Stack
 - Langugage: 
   - Python
 - Libraries:
@@ -21,7 +21,8 @@ This project uses Python + OpenCV to create an illusion where a selected color (
 2. Detect cloak region using color detection (HSV mask).
 3. Replace the cloak area with the stored background.
 4. Overlay final frames to create the illusion of invisibility.
-   ## 📂 Project Structure
+
+## 📂 Project Structure
  ``` text
 Invisible-Cloak/
 │── cloak.py            # Main code file
@@ -56,7 +57,7 @@ cd invisible-cloak
 - Apply smoothing filters for better cloak blending.
 ## 🤝 Contributing  
   *Pull requests are welcome! If you’d like to improve detection or add new features, feel free to fork and submit a PR.*
-  ##📜 License    
+## 📜 License    
 ** This project is licensed under the MIT License – free to use and modify.
 
 ## 🌟 Acknowledgements
@@ -64,7 +65,7 @@ cd invisible-cloak
 - Built with OpenCV tutorials & docs
 - Idea credits: OpenCV community
 
-  ## 🧑‍💻 Developer  
+## 🧑‍💻 Developer  
 *Akash Sahani*  
 📫 [GitHub](https://github.com/Akash-Sahani18) | [LinkedIn](https://www.linkedin.com/in/akash-sahani-440147243)
   
